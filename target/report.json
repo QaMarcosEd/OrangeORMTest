@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-09-15T18:17:21.944Z",
+        "before": [
+          {
+            "result": {
+              "duration": 15008214300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.EmployeeManagementSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 6667610600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7274696300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LogoutSteps.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Adicionar um novo empregado com sucesso",
+        "description": "",
+        "id": "gestão-de-empregados;adicionar-um-novo-empregado-com-sucesso",
+        "after": [
+          {
+            "result": {
+              "duration": 1430009600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LogoutSteps.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1366663400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: WebDriver session does not exist, or is not active\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [dd9d3bcb-62f5-476a-b1ae-239b7d137605, findElement {using\u003dname, value\u003dusername}]\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 130.0, moz:accessibilityChecks: false, moz:buildID: 20240829075237, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7388, moz:profile: C:\\Users\\marco\\AppData\\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}\nSession ID: dd9d3bcb-62f5-476a-b1ae-239b7d137605\r\n\tat java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)\r\n\tat org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:194)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:190)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:203)\r\n\tat utils.NavigationUtils.loginAndNavigateToViewEmployeeList(NavigationUtils.java:14)\r\n\tat steps.EmployeeManagementSteps.queEstouNaPágina(EmployeeManagementSteps.java:43)\r\n\tat ✽.que estou na página \"viewEmployeeList\"(file:///D:/eclipse-workspace/orangehrm-test/src/test/resources/features/employee_management.feature:5)\r\n",
+              "duration": 74667839100,
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "que estou na página \"viewEmployeeList\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"viewEmployeeList\"",
+                  "offset": 20
+                }
+              ],
+              "location": "steps.EmployeeManagementSteps.queEstouNaPágina(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "eu clico no botão para adicionar um empregado \"addEmployee\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"addEmployee\"",
+                  "offset": 46
+                }
+              ],
+              "location": "steps.EmployeeManagementSteps.euClicoNoBotãoParaAdicionarUmEmpregado(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "eu preencho os campos obrigatórios e clico em salvar",
+            "match": {
+              "location": "steps.EmployeeManagementSteps.euPreenchoOsCamposObrigatóriosEClicoEmSalvar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "eu devo ser redirecionado para a pagina de detalhes do empregado",
+            "match": {
+              "location": "steps.EmployeeManagementSteps.euDevoSerRedirecionadoParaAPaginDeDetalhesDoEmpregado()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-09-15T18:19:08.745Z",
+        "before": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Failed to decode response from marionette \nHost info: host: \u0027LAPTOP-3EO36ULF\u0027, ip: \u002710.0.0.127\u0027\nBuild info: version: \u00274.20.0\u0027, revision: \u0027866c76ca80\u0027\nSystem info: os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002721.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:161)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:155)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:150)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:132)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:127)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:112)\r\n\tat org.openqa.selenium.firefox.FirefoxDriver.\u003cinit\u003e(FirefoxDriver.java:102)\r\n\tat steps.EmployeeManagementSteps.setUp(EmployeeManagementSteps.java:29)\r\n",
+              "duration": 7588045700,
+              "status": "failed"
+            },
+            "match": {
+              "location": "steps.EmployeeManagementSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 8518395700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginSteps.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 7662857300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LogoutSteps.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Adicionar um empregado com detalhes de login",
+        "description": "",
+        "id": "gestão-de-empregados;adicionar-um-empregado-com-detalhes-de-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "Gestão de Empregados",
+    "description": "",
+    "id": "gestão-de-empregados",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/employee_management.feature",
+    "tags": []
+  }
+]
